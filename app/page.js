@@ -585,7 +585,7 @@ export default function QuickCommerceDashboard() {
               <div className="prose max-w-none text-gray-700 mb-4 md:mb-6">
                 <p>
                   Leverage points are places in a system where a small change
-                  can have large effects. Based on Meadows' framework, we've
+                  can have large effects. Based on Meadows framework, we have
                   identified key intervention points.
                 </p>
               </div>
@@ -952,7 +952,7 @@ export default function QuickCommerceDashboard() {
                     Quick commerce refers to online retail models promising
                     delivery in about 10 minutes, enabled by networks of urban
                     "dark stores" and delivery riders. Companies like Blinkit,
-                    Zepto, and Swiggy Instamart are competing to serve India's
+                    Zepto, and Swiggy Instamart are competing to serve India
                     1.4 billion consumers with lightning-fast convenience.
                   </p>
                   <p className="mt-3 md:mt-4 text-sm md:text-base text-gray-700">
