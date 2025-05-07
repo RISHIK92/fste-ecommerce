@@ -647,7 +647,6 @@ export default function QuickCommerceDashboard() {
                   identified key intervention points.
                 </p>
               </div>
-
               <div className="overflow-x-auto">
                 <table className="min-w-full divide-y divide-gray-200">
                   <thead className="bg-gray-50">
@@ -752,7 +751,7 @@ export default function QuickCommerceDashboard() {
                   <div className="flex justify-center">
                     <div className="bg-white p-4 rounded border border-gray-300 w-full max-w-3xl h-[50rem] flex items-center justify-center">
                       <img
-                        src="https://res.cloudinary.com/dvowfjsb4/image/upload/v1746596545/WhatsApp_Image_2025-05-07_at_03.01.37_hesyyf.jpggi"
+                        src="https://res.cloudinary.com/dvowfjsb4/image/upload/v1746596545/WhatsApp_Image_2025-05-07_at_03.01.37_hesyyf.jpg"
                         alt="Quick Commerce System Image"
                         className="max-h-full max-w-full object-contain"
                       />
@@ -760,17 +759,239 @@ export default function QuickCommerceDashboard() {
                   </div>
                 </div>
               </div>
-              <div className="bg-gray-100 p-4 md:p-6 rounded-lg border border-gray-200">
-                <h1 className="">Behavior Over Time Graphs </h1>
-                <div className="bg-gray-100 p-4 md:p-6 rounded-lg border border-gray-200">
-                  <div className="flex justify-center">
-                    <div className="bg-white p-4 rounded border border-gray-300 w-full max-w-3xl h-[50rem] flex items-center justify-center">
-                      <img
-                        src="https://res.cloudinary.com/dvowfjsb4/image/upload/v1746550496/WhatsApp_Image_2025-05-06_at_20.27.02_rpqrge.jpg"
-                        alt="Quick Commerce System Image"
-                        className="max-h-full max-w-full object-contain"
-                      />
-                    </div>
+
+              <div className="p-6 space-y-10 bg-gray-50 min-h-screen">
+                <div>
+                  <h2 className="text-2xl font-bold text-indigo-700 mb-4">
+                    Consumer Behavior
+                  </h2>
+                  <ul className="list-disc list-inside space-y-2 text-gray-800">
+                    <li>
+                      <span className="font-semibold">10-min Delivery - </span>
+                      Ultra-fast delivery target within 10 minutes.
+                    </li>
+                    <li>
+                      <span className="font-semibold">
+                        Instant Gratification -{" "}
+                      </span>
+                      Immediate pleasure from fast delivery.
+                    </li>
+                    <li>
+                      <span className="font-semibold">
+                        Reduced Planned Shopping/Stocking Habits -{" "}
+                      </span>
+                      Less pre-planned shopping due to availability of fast
+                      delivery.
+                    </li>
+                    <li>
+                      <span className="font-semibold">Impulse Buying - </span>
+                      Buying without prior intention, driven by convenience.
+                    </li>
+                    <li>
+                      <span className="font-semibold">Delivery Delay - </span>
+                      Late delivery beyond promised time.
+                    </li>
+                    <li>
+                      <span className="font-semibold">
+                        Customer Dissatisfaction -{" "}
+                      </span>
+                      Unhappiness due to delays or poor service.
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Variable Definition Table */}
+                <div>
+                  <h2 className="text-2xl font-bold text-indigo-700 mb-4">
+                    Variables & Definitions
+                  </h2>
+                  <div className="overflow-auto border border-gray-300 rounded-md">
+                    <table className="w-full text-left table-auto">
+                      <thead className="bg-indigo-100">
+                        <tr>
+                          <th className="px-4 py-2 font-semibold text-indigo-900">
+                            Variable
+                          </th>
+                          <th className="px-4 py-2 font-semibold text-indigo-900">
+                            Definition
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white divide-y divide-gray-200 text-gray-700">
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            10-min Delivery
+                          </td>
+                          <td className="px-4 py-2">
+                            Ultra-fast delivery service promises within 10
+                            minutes
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Quick Commerce
+                          </td>
+                          <td className="px-4 py-2">
+                            Fast, small-quantity, on-demand delivery system
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Need of Any Product
+                          </td>
+                          <td className="px-4 py-2">
+                            Urge to get products immediately, regardless of
+                            actual necessity
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Impulse Buying
+                          </td>
+                          <td className="px-4 py-2">
+                            Buying without planning, often due to ease and speed
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Planned Shopping
+                          </td>
+                          <td className="px-4 py-2">
+                            Thought-out shopping with list and purpose
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            No Long Term Stock
+                          </td>
+                          <td className="px-4 py-2">
+                            Reduced habit of storing items for future use
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Ordering Frequency
+                          </td>
+                          <td className="px-4 py-2">
+                            Number of times users place orders in a given period
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Packaging Waste
+                          </td>
+                          <td className="px-4 py-2">
+                            Waste generated due to excess or frequent packaging
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Driver Fatigue
+                          </td>
+                          <td className="px-4 py-2">
+                            Physical or mental exhaustion of delivery drivers
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            More Accidents Leading to More Fatigue
+                          </td>
+                          <td className="px-4 py-2">
+                            Fatigue increases as accidents add stress and
+                            workload
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Safety Protocol Outcome
+                          </td>
+                          <td className="px-4 py-2">
+                            Results from following or failing safety procedures
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Instant Gratification
+                          </td>
+                          <td className="px-4 py-2">
+                            Satisfaction from getting products immediately
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Customer Dissatisfaction
+                          </td>
+                          <td className="px-4 py-2">
+                            Negative customer feelings due to delays or errors
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Delivery Delay
+                          </td>
+                          <td className="px-4 py-2">
+                            Late arrival of ordered items
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Road Accident
+                          </td>
+                          <td className="px-4 py-2">
+                            Collisions or crashes during deliveries
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Overspeeding
+                          </td>
+                          <td className="px-4 py-2">
+                            Drivers going over speed limits to meet time goals
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            More Under / Overspeeding
+                          </td>
+                          <td className="px-4 py-2">
+                            Increased erratic speed patterns due to delivery
+                            pressure
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Number of Delivery Trips
+                          </td>
+                          <td className="px-4 py-2">
+                            Total delivery runs made in a time frame
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Increased Pressure on Delivery Time
+                          </td>
+                          <td className="px-4 py-2">
+                            Stress to meet promised delivery windows
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Delivery Vehicle Emission
+                          </td>
+                          <td className="px-4 py-2">
+                            Air pollution caused by delivery vehicle usage
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-medium">
+                            Environmental Degradation
+                          </td>
+                          <td className="px-4 py-2">
+                            Harm to nature from emissions, waste, etc
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
@@ -956,7 +1177,62 @@ export default function QuickCommerceDashboard() {
               <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">
                 References
               </h2>
-              <div className="space-y-4 md:space-y-6"></div>
+              <ul className="list-disc list-inside space-y-3 text-gray-800">
+                <li>
+                  <a
+                    href="https://www.shipyaari.com/blogs/the-future-is-now-how-instant-delivery-is-changing-the-way-we-shop/#:~:text=Impact%20On%20Consumer%20Behavior,many%20is%20a%20no%2Dbrainer"
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Shipyaari – The Future is Now: How Instant Delivery is
+                    Changing the Way We Shop
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.shiprocket.in/blog/revolutionising-instant-delivery-in-just-10-minutes/#:~:text=fast%20deliveries%20possible.-,The%20Rise%20of%20Instant%20Delivery,increasing%20scope%20of%20Hyperlocal%20Businesses"
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Shiprocket – Revolutionising Instant Delivery in Just 10
+                    Minutes
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://youtu.be/LWeLgs4a8CY?feature=shared"
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube – Rise of Instant Delivery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.forbesindia.com/article/international-management-institute/rise-of-10minute-delivery-apps-in-india-convenience-at-what-cost/95585/1"
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Forbes India – Rise of 10-Minute Delivery Apps in India:
+                    Convenience at What Cost?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.sciencedirect.com/science/article/pii/S2772390922000439#ab010"
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ScienceDirect – E-commerce Last Mile Delivery: Sustainable
+                    Consumer Behavior and Future of Instant Delivery
+                  </a>
+                </li>
+              </ul>
             </section>
           </div>
         );
@@ -1094,7 +1370,9 @@ export default function QuickCommerceDashboard() {
                   className="px-4 py-2 bg-amber-600 text-white rounded-md hover:bg-amber-700 text-sm md:text-base"
                   href=""
                 >
-                  Link to Video
+                  <button onClick={() => setActiveTab("analysis")}>
+                    System Analysis
+                  </button>
                 </a>
               </div>
             </section>
