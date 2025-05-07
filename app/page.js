@@ -382,7 +382,7 @@ export default function QuickCommerceDashboard() {
                   <div className="flex justify-center">
                     <div className="bg-white p-4 rounded border border-gray-300 w-full max-w-3xl h-[50rem] flex items-center justify-center">
                       <img
-                        src="https://res.cloudinary.com/df622sxkk/image/upload/v1746460201/IMG-20250505-WA0002_muqns4.jpg"
+                        src="https://res.cloudinary.com/dvowfjsb4/image/upload/v1746550496/WhatsApp_Image_2025-05-06_at_20.27.02_rpqrge.jpg"
                         alt="Quick Commerce System Image"
                         className="max-h-full max-w-full object-contain"
                       />
@@ -400,12 +400,30 @@ export default function QuickCommerceDashboard() {
                         Consumer Behavior
                       </h4>
                       <ul className="space-y-1 text-sm">
-                        <li>• Immediate Need for Product</li>
-                        <li>• Instant Gratification</li>
-                        <li>• Impulse Buying</li>
-                        <li>• Ordering Frequency</li>
-                        <li>• Speed Expectation</li>
-                        <li>• Customer Dissatisfaction</li>
+                        <li>
+                          • 10-min Delivery - Ultra-fast delivery target within
+                          10 minutes.
+                        </li>
+                        <li>
+                          • Instant Gratification - Immediate pleasure from fast
+                          delivery.
+                        </li>
+                        <li>
+                          • Reduced Planned Shopping/Stocking Habits - Less
+                          pre-planned shopping due to availability of fast
+                          delivery.
+                        </li>
+                        <li>
+                          • Impulse Buying - Buying without prior intention,
+                          driven by convenience.
+                        </li>
+                        <li>
+                          • Delivery Delay - Late delivery beyond promised time.
+                        </li>
+                        <li>
+                          • Customer Dissatisfaction - Unhappiness due to delays
+                          or poor service.
+                        </li>
                       </ul>
                     </div>
                     <div className="bg-rose-50 p-4 rounded-lg">
@@ -413,10 +431,34 @@ export default function QuickCommerceDashboard() {
                         Labor Conditions
                       </h4>
                       <ul className="space-y-1 text-sm">
-                        <li>• Delivery Time Pressure</li>
-                        <li>• Worker Stress & Fatigue</li>
-                        <li>• Overspeeding / Accidents</li>
-                        <li>• Gig Worker Turnover</li>
+                        <li>
+                          • Increased Pressure on Delivery Time - More pressure
+                          to meet short delivery timelines.
+                        </li>
+                        <li>
+                          • More Trips/Overspeeding - Increase in trips and
+                          speeding to meet fast delivery.
+                        </li>
+                        <li>
+                          • Driver Fatigue - Exhaustion due to frequent and fast
+                          delivery schedules.
+                        </li>
+                        <li>
+                          • Road Accident - Accidents occurring from
+                          overspeeding and fatigue.
+                        </li>
+                        <li>
+                          • Safety Protocol Outcome - Results of efforts to
+                          maintain safety (e.g., slower deliveries).
+                        </li>
+                        <li>
+                          • More Accidents Leading to More Fatigue - Accidents
+                          increase fatigue due to added stress or loss of
+                          workforce.
+                        </li>
+                        <li>
+                          • Overspeeding - Driving too fast to meet deadlines.
+                        </li>
                       </ul>
                     </div>
                     <div className="bg-emerald-50 p-4 rounded-lg">
@@ -424,10 +466,37 @@ export default function QuickCommerceDashboard() {
                         Environmental Cost
                       </h4>
                       <ul className="space-y-1 text-sm">
-                        <li>• Number of Delivery Trips</li>
-                        <li>• Delivery Vehicle Emissions</li>
-                        <li>• Packaging Waste</li>
-                        <li>• Environmental Degradation</li>
+                        <li>
+                          • Quick Commerce - Rapid retail model offering
+                          near-instant delivery.
+                        </li>
+                        <li>
+                          • No Long-Term Stock - Users avoiding keeping extra
+                          stock at home.
+                        </li>
+                        <li>
+                          • Unplanned Need of Any Product - Instant delivery
+                          reduces the need for preplanning.
+                        </li>
+                        <li>
+                          • Number of Delivery Trips - Count of delivery runs
+                          made per day.
+                        </li>
+                        <li>
+                          • Delivery Vehicle Emissions - Pollution caused by
+                          frequent delivery vehicle trips.
+                        </li>
+                        <li>
+                          • Packaging Waste - Increase in disposable packaging
+                          material.
+                        </li>
+                        <li>
+                          • Environmental Degradation - Harm to environment due
+                          to emissions and waste.
+                        </li>
+                        <li>
+                          • Ordering Frequency - How often users place orders.
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -444,40 +513,33 @@ export default function QuickCommerceDashboard() {
                           R1 – Instant Gratification Loop
                         </h4>
                         <p className="text-sm mt-1">
-                          Faster delivery → more impulse buying → increased
-                          ordering frequency → higher speed expectations → more
-                          demand for 10-min delivery
+                          Quick commerce enables 10-min delivery → fuels instant
+                          gratification → increases impulse buying → reduces
+                          planned shopping → creates urgency for any product →
+                          strengthens quick commerce.
                         </p>
                         <p className="text-xs mt-2 italic">
-                          Consumers shift from planned shopping to buying on the
-                          go, creating a cycle of demand.
+                          Quick commerce enables 10-min delivery → fuels instant
+                          gratification → increases impulse buying → reduces
+                          planned shopping → creates urgency for any product →
+                          strengthens quick commerce.
                         </p>
                       </div>
                       <div className={`p-3 ${colors.success} rounded-lg`}>
                         <h4 className="font-medium">
-                          R2 – Speed Expectation Spiral
+                          R2 – Emissions Escalation Loop
                         </h4>
                         <p className="text-sm mt-1">
-                          Rising consumer speed expectations → platforms build
-                          more dark stores and logistics → expands 10-min
-                          coverage → reinforces speed as a norm.
+                          Higher order volume → more delivery trips → more
+                          overspeeding and emissions → greater environmental
+                          degradation → negative feedback into infrastructure
+                          and regulation gaps → sustains unchecked delivery
+                          expansion
                         </p>
                         <p className="text-xs mt-2 italic">
-                          Triggers a competitive "arms race" where companies
-                          must keep speeding up to retain users.
-                        </p>
-                      </div>
-                      <div className={`p-3 ${colors.warning} rounded-lg`}>
-                        <h4 className="font-medium">
-                          R3 – Environmental Impact Loop
-                        </h4>
-                        <p className="text-sm mt-1">
-                          More quick orders → more delivery trips and packaging
-                          → higher emissions and waste → worsened environmental
-                          degradation.
-                        </p>
-                        <p className="text-xs mt-2 italic">
-                          Unchecked growth leads to ecological consequences.
+                          Environmental harm becomes a byproduct of growing
+                          convenience, with emissions rising as platforms scale
+                          to meet demand.
                         </p>
                       </div>
                     </div>
@@ -489,30 +551,17 @@ export default function QuickCommerceDashboard() {
                     <div className="space-y-4">
                       <div className={`p-3 ${colors.danger} rounded-lg`}>
                         <h4 className="font-medium">
-                          B1 – Customer Satisfaction Balancer
+                          B1 – Safety Breakdown Loop
                         </h4>
                         <p className="text-sm mt-1">
-                          Pressure to deliver faster → overspeeding and rider
-                          fatigue → increased accidents and delivery delays →
-                          customer dissatisfaction → reduced demand.
+                          Increased delivery pressure → overspeeding and fatigue
+                          → more road accidents → delivery delays → customer
+                          dissatisfaction → reduced ordering frequency.
                         </p>
                         <p className="text-xs mt-2 italic">
-                          This loop tempers growth by showing how excessive
-                          speed harms service quality and trust.
-                        </p>
-                      </div>
-                      <div className={`p-3 ${colors.secondary} rounded-lg`}>
-                        <h4 className="font-medium">
-                          B2 – Regulatory Backlash Loop
-                        </h4>
-                        <p className="text-sm mt-1">
-                          Environmental degradation → public concern →
-                          government regulations → constraints on quick commerce
-                          → reduced environmental impact.
-                        </p>
-                        <p className="text-xs mt-2 italic">
-                          Potential future balancing mechanism as impacts become
-                          more visible.
+                          Operational stress and safety failures act as natural
+                          brakes, undermining reliability and slowing growth
+                          momentum.
                         </p>
                       </div>
                     </div>
@@ -534,22 +583,31 @@ export default function QuickCommerceDashboard() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className={`p-4 ${colors.warning} rounded-lg`}>
-                  <h3 className="text-lg font-medium mb-2">
-                    Tragedy of the Commons
-                  </h3>
+                  <h3 className="text-lg font-medium mb-2">Escalation</h3>
                   <p className="text-sm">
-                    Multiple platforms over-exploit shared resources (road
-                    space, labor). Each adds more riders and dark stores to win
-                    market share, collectively causing congestion and pollution.
+                    Description & Pattern: Competing delivery platforms race to
+                    promise faster delivery (e.g., 30 → 15 → 10 mins) → each
+                    increases pressure on workforce and system capacity.
+                  </p>
+                  <p>
+                    Impact on System Dynamics: Unsustainable arms race leads to
+                    compounding strain on human and environmental resources,
+                    increasing systemic risk and instability.
                   </p>
                 </div>
                 <div className={`p-4 ${colors.danger} rounded-lg`}>
                   <h3 className="text-lg font-medium mb-2">Fixes that Fail</h3>
                   <p className="text-sm">
-                    Symptomatic fixes (like adding more dark stores or riders)
-                    may solve delivery delays temporarily but worsen congestion
-                    and emissions. Each quick fix leads to unintended side
-                    effects that undermine the solution.
+                    Description & Pattern: Core loop: To meet ultra-fast
+                    delivery targets, companies push drivers to overspeed →
+                    short-term gain in customer satisfaction → long-term rise in
+                    fatigue and accidents → delays → customer dissatisfaction
+                    returns.
+                  </p>
+                  <p>
+                    Impact on System Dynamics: Short-term “fix” undermines
+                    system performance over time. Creates a reinforcing cycle of
+                    failure and reputational damage.
                   </p>
                 </div>
                 <div className={`p-4 ${colors.secondary} rounded-lg`}>
@@ -611,59 +669,64 @@ export default function QuickCommerceDashboard() {
                   <tbody className="bg-white divide-y divide-gray-200">
                     <tr>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        Minimum order value / delivery fees
+                        Delivery Time Regulations
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm text-gray-500">
-                        Numbers-Constants and Parameters
+                        Rules of the System
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Discourages small orders and spreads demand
+                        Changing the delivery time standard (e.g., from 10 min
+                        to 30 min)
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Fewer trivial deliveries; more efficient routes
+                        Reduces pressure, accidents
                       </td>
                     </tr>
                     <tr>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        Dark store locations & routes
+                        Incentivizing Eco Behavior
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm text-gray-500">
-                        Material flows
+                        Positive Reinforcement Rules
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Optimizes logistics and reduces travel distance
+                        Reward customers for bulk orders or longer delivery
+                        windows
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Lower emissions; less traffic congestion
+                        Reduces number of trips, emissions, and packaging waste
                       </td>
                     </tr>
                     <tr>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        Transparent impact information
+                        Customer Penalty for Frivolous Orders
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm text-gray-500">
-                        Information flows
+                        Rules of the System
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Informs consumers of carbon footprint and labor costs
+                        Imposes surcharge on ultra-low-value or frequent trivial
+                        orders
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Shifts choices toward eco-friendly options
+                        Discourages impulse usage, indirectly reducing system
+                        load
                       </td>
                     </tr>
                     <tr>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        Stricter labor and packaging rules
+                        Delivery Batching Mechanism
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 whitespace-nowrap text-sm text-gray-500">
-                        Rules-Incentives,Punishments,Constraints
+                        Reinforcing Feedback Loops
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Protects workers and environment (e.g., enforce breaks,
-                        ban plastics)
+                        Forces the system to prioritize bundling nearby orders
+                        over speed
                       </td>
                       <td className="px-4 py-2 md:px-6 md:py-4 text-sm text-gray-500">
-                        Fewer accidents; less waste
+                        Reduces trips and emissions significantly while
+                        maintaining reliability
                       </td>
                     </tr>
                     <tr>
@@ -683,9 +746,38 @@ export default function QuickCommerceDashboard() {
                   </tbody>
                 </table>
               </div>
+              <div className="bg-gray-100 p-4 md:p-6 rounded-lg border border-gray-200">
+                <h1>Stock & Flow Diagrams</h1>
+                <div className="bg-gray-100 p-4 md:p-6 rounded-lg border border-gray-200">
+                  <div className="flex justify-center">
+                    <div className="bg-white p-4 rounded border border-gray-300 w-full max-w-3xl h-[50rem] flex items-center justify-center">
+                      <img
+                        src="https://res.cloudinary.com/dvowfjsb4/image/upload/v1746596545/WhatsApp_Image_2025-05-07_at_03.01.37_hesyyf.jpggi"
+                        alt="Quick Commerce System Image"
+                        className="max-h-full max-w-full object-contain"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gray-100 p-4 md:p-6 rounded-lg border border-gray-200">
+                <h1 className="">Behavior Over Time Graphs </h1>
+                <div className="bg-gray-100 p-4 md:p-6 rounded-lg border border-gray-200">
+                  <div className="flex justify-center">
+                    <div className="bg-white p-4 rounded border border-gray-300 w-full max-w-3xl h-[50rem] flex items-center justify-center">
+                      <img
+                        src="https://res.cloudinary.com/dvowfjsb4/image/upload/v1746550496/WhatsApp_Image_2025-05-06_at_20.27.02_rpqrge.jpg"
+                        alt="Quick Commerce System Image"
+                        className="max-h-full max-w-full object-contain"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
           </div>
         );
+
       case "solutions":
         return (
           <div className="space-y-6">
@@ -862,76 +954,9 @@ export default function QuickCommerceDashboard() {
 
             <section className="bg-white p-4 md:p-6 rounded-lg shadow-sm">
               <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">
-                Implementation Roadmap
+                References
               </h2>
-              <div className="space-y-4 md:space-y-6">
-                <div className="flex items-start">
-                  <div
-                    className={`flex-shrink-0 ${colors.secondary} rounded-full w-6 h-6 md:w-8 md:h-8 flex items-center justify-center mr-3 md:mr-4 mt-0.5`}
-                  >
-                    1
-                  </div>
-                  <div>
-                    <h3 className="text-base md:text-lg font-medium text-gray-800 mb-1">
-                      Short-term (0-6 months)
-                    </h3>
-                    <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-                      <li>
-                        Implement minimum order values and dynamic delivery fees
-                      </li>
-                      <li>Improve rider safety equipment and training</li>
-                      <li>Launch consumer awareness campaigns about impacts</li>
-                      <li>Pilot carbon footprint labeling on orders</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div
-                    className={`flex-shrink-0 ${colors.secondary} rounded-full w-6 h-6 md:w-8 md:h-8 flex items-center justify-center mr-3 md:mr-4 mt-0.5`}
-                  >
-                    2
-                  </div>
-                  <div>
-                    <h3 className="text-base md:text-lg font-medium text-gray-800 mb-1">
-                      Medium-term (6-18 months)
-                    </h3>
-                    <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-                      <li>
-                        Optimize dark store locations using data analytics
-                      </li>
-                      <li>Transition 30-50% of fleet to electric vehicles</li>
-                      <li>Implement transparent impact reporting in apps</li>
-                      <li>Develop sustainable packaging alternatives</li>
-                      <li>Establish industry-wide labor standards</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div
-                    className={`flex-shrink-0 ${colors.secondary} rounded-full w-6 h-6 md:w-8 md:h-8 flex items-center justify-center mr-3 md:mr-4 mt-0.5`}
-                  >
-                    3
-                  </div>
-                  <div>
-                    <h3 className="text-base md:text-lg font-medium text-gray-800 mb-1">
-                      Long-term (18+ months)
-                    </h3>
-                    <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-                      <li>
-                        Advocate for policy changes and urban planning
-                        adjustments
-                      </li>
-                      <li>Scale EV fleet to 80-100% coverage</li>
-                      <li>Establish circular economy for packaging</li>
-                      <li>Develop industry-wide sustainability standards</li>
-                      <li>
-                        Integrate with public transportation for last-mile
-                        delivery
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <div className="space-y-4 md:space-y-6"></div>
             </section>
           </div>
         );
@@ -952,8 +977,8 @@ export default function QuickCommerceDashboard() {
                     Quick commerce refers to online retail models promising
                     delivery in about 10 minutes, enabled by networks of urban
                     "dark stores" and delivery riders. Companies like Blinkit,
-                    Zepto, and Swiggy Instamart are competing to serve India
-                    1.4 billion consumers with lightning-fast convenience.
+                    Zepto, and Swiggy Instamart are competing to serve India 1.4
+                    billion consumers with lightning-fast convenience.
                   </p>
                   <p className="mt-3 md:mt-4 text-sm md:text-base text-gray-700">
                     However, this convenience has hidden costs. Ultra-fast
